@@ -1,0 +1,71 @@
+﻿namespace MinimalApiTest.Domain.Models
+{
+    public partial class Customer
+    {
+        public long CustomerId { get; set; }
+        public long? SageDatabaseId { get; set; }
+        public string? CustomerAccountRef { get; set; }
+        public string? CustomerName { get; set; }
+        public string? CustomerShortName { get; set; }
+        public long? SlaccountId { get; set; }
+        public long? SyscurrencyId { get; set; }
+        public string? AddressLine1 { get; set; }
+        public string? AddressLine2 { get; set; }
+        public string? AddressLine3 { get; set; }
+        public string? AddressLine4 { get; set; }
+        public string? PostCode { get; set; }
+        public string? County { get; set; }
+        public long? SyscountryCodeId { get; set; }
+        public string? TelephoneCountryCode { get; set; }
+        public string? TelephoneAreaCode { get; set; }
+        public string? TelephoneNumber { get; set; }
+        public string? WebSite { get; set; }
+        public string? Salutation { get; set; }
+        public string? FirstName { get; set; }
+        public string? MiddleName { get; set; }
+        public string? LastName { get; set; }
+        public string? ContactTelephoneCountryCode { get; set; }
+        public string? ContactTelephoneAreaCode { get; set; }
+        public string? ContactTelephoneNumber { get; set; }
+        public string? ContactMobileCountryCode { get; set; }
+        public string? ContactMobileAreaCode { get; set; }
+        public string? ContactMobileNumber { get; set; }
+        public string? ContactFaxCountryCode { get; set; }
+        public string? ContactFaxAreaCode { get; set; }
+        public string? ContactFaxNumber { get; set; }
+        public string? ContactEmailAddress { get; set; }
+        public string? ContactWebsite { get; set; }
+        public long? TradingSyscountryCodeId { get; set; }
+        public string? TradingDunsnumber { get; set; }
+        public bool? TradingTaxCodeSopdefault { get; set; }
+        public long? TradingDefaultTaxCodeId { get; set; }
+        public string? TradingTaxNumber { get; set; }
+        public long? TradingKeepTransactionsFor { get; set; }
+        public string? TradingOrderPriority { get; set; }
+        public long? TradingDefaultNominalCodeId { get; set; }
+        public decimal? CreditLimit { get; set; }
+        public bool? Deleted { get; set; }
+        public DateTime? UpdatedDate { get; set; }
+        public string? UpdatedUser { get; set; }
+        public string? DocumentStatus { get; set; }
+        public string? UpdateStatus { get; set; }
+        public long? RequestedById { get; set; }
+        public string? RequestedByName { get; set; }
+        public bool? Posted { get; set; }
+        public string? ErrorMessage { get; set; }
+        public DateTime? FullyApprovedDate { get; set; }
+        public bool? Urgent { get; set; }
+        public string? UrgentReason { get; set; }
+        public string? LineStatus { get; set; }
+        public string? RejectReason { get; set; }
+        public long? CurrentStep { get; set; }
+        public bool? CustomRoute { get; set; }
+        public long? CustomRouteId { get; set; }
+        public long? CurrentStepApprovalCount { get; set; }
+        public bool? Submitted { get; set; }
+        public bool? OverBudget { get; set; }
+        public bool ResetRoute { get; set; }
+        public DateTime? SubmittedDate { get; set; }
+        public long? FinanceCharge { get; set; }
+    }
+}

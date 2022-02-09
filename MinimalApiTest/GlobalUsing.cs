@@ -1,0 +1,16 @@
+﻿global using MediatR;
+global using MinimalApiTest.Application.Contracts.Requisitions.Commands;
+global using MinimalApiTest.Application.Contracts.Requisitions.Queries;
+global using Microsoft.EntityFrameworkCore;
+global using MinimalApiTest.Domain.Abstractions;
+global using MinimalApiTest.EndpointDefinitions;
+global using MinimalApiTest.Infrastructure.Persistence;
+global using MinimalApiTest.Application.Profiles;
+global using MinimalApiTest.Application.Services.Requisitions.Queries;
+global using AutoMapper;
+global using MinimalApiTest.Application.Helpers;
+global using MinimalApiTest.Helpers;
+global using MinimalApiTest.Application.Contracts.Users.Responses;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.OpenApi.Models;
+global using MinimalApiTest.Application.Contracts.Users.Commands;
