@@ -1,5 +1,7 @@
 ﻿namespace MinimalApiTest.Infrastructure.Persistence;
 
+using MinimalApiTest.Domain.Models;
+
 public partial class WapContext : DbContext, IWapContext
 {
     public WapContext()

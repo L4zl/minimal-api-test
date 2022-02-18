@@ -14,3 +14,4 @@ global using MinimalApiTest.Application.Contracts.Users.Responses;
 global using Microsoft.AspNetCore.Authentication.JwtBearer;
 global using Microsoft.OpenApi.Models;
 global using MinimalApiTest.Application.Contracts.Users.Commands;
+global using MinimalApiTest.Application.Contracts.Requisitions.Responses;

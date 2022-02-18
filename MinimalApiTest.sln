@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApiTest.Application"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApiTest.Domain", "MinimalApiTest.Domain\MinimalApiTest.Domain.csproj", "{537F5AFA-7D44-4D2E-AC4E-6EBFDD4A7CDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApiTest.Infrastructure", "MinimalApiTest.Infrastructure\MinimalApiTest.Infrastructure.csproj", "{FF9DBB98-67AD-4BD3-BC57-59002939C09E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApiTest.Infrastructure", "MinimalApiTest.Infrastructure\MinimalApiTest.Infrastructure.csproj", "{FF9DBB98-67AD-4BD3-BC57-59002939C09E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApiTest.Application.Contracts", "MinimalApiTest.Application.Contracts\MinimalApiTest.Application.Contracts.csproj", "{7B077234-FFC6-4328-B489-E40B8292C8A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApiTest.Application.Contracts", "MinimalApiTest.Application.Contracts\MinimalApiTest.Application.Contracts.csproj", "{7B077234-FFC6-4328-B489-E40B8292C8A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,6 @@
-﻿namespace MinimalApiTest.Domain.Abstractions;
+﻿using MinimalApiTest.Domain.Models;
+
+namespace MinimalApiTest.Domain.Abstractions;
 public interface IWapContext
 {
     DbSet<AnalysisLabel> AnalysisLabels { get; set; }

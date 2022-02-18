@@ -5,11 +5,12 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("Jwt"));
+builder.Services.Configure<SageConnectionStrings>(builder.Configuration.GetSection("SageConnectionStrings"));
 builder.Services.AddDbContext<WapContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("wap-db")));
 
 builder.Services.AddEndpointDefinitions(typeof(IEndpointDefinition));
 builder.Services.AddScoped<IWapContext, WapContext>();
-
+builder.Services.AddScoped<ISageContexts, SageContexts>();
 
 builder.Services.AddAuthorization();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
